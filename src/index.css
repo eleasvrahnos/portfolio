@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-    /* box-sizing: border-box; */
-    background-color: #222222;
-    position: relative;
-    /* margin: 0; */
+body {
+    /* overflow-x: hidden; */
+    /* position: relative; */
 }

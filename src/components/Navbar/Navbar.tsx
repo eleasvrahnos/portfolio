@@ -1,17 +1,27 @@
-import * as React from 'react'
-import styles from "./Navbar.module.css"
-
-export const Navbar = () => {
+const Navbar = () => {
   return (
-    <nav className={styles.Navbar}>
-      <a className={styles.title} href="/">Something here</a>
+    <nav className="sticky p-6">
       <div>
-        <ul className={styles.menuItems}>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#resume">Resume</a></li>
+        <ul className="flex justify-center space-x-6 text-sm font-medium text-gray-300 sm:space-x-14 sm:text-2xl">
+          <li className="duration-200 hover:scale-125">
+            <a href="#about">About</a>
+          </li>
+          <li className="duration-200 hover:scale-125">
+            <a href="#projects">Projects</a>
+          </li>
+          <li className="duration-200 hover:scale-125">
+            <a href="#experience">Experience</a>
+          </li>
+          <li className="duration-200 hover:scale-125">
+            <a href="#resume">Resume</a>
+          </li>
+          <li className="duration-200 hover:scale-125">
+            <a href="#contact">Contact</a>
+          </li>
         </ul>
       </div>
     </nav>
-  )
-}
+  );
+};
+
+export default Navbar;
