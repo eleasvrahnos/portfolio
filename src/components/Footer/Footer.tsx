@@ -7,22 +7,25 @@ const Footer = () => {
     <div className="bg-black">
       <h1 className="pt-6 text-center text-2xl font-bold text-slate-200"> Connect with me! </h1>
       <div className="flex justify-center gap-4 p-4">
-        <a href="https://www.linkedin.com/in/eleasvrahnos/" target="_blank">
+        <a href="https://www.linkedin.com/in/eleasvrahnos/" target="_blank" rel="noreferrer">
           <img
             className="h-14 duration-200 hover:scale-110"
             src={linkedinLogo}
+            alt="LinkedIn"
           />
         </a>
-        <a href="https://github.com/eleasvrahnos" target="_blank">
+        <a href="https://github.com/eleasvrahnos" target="_blank" rel="noreferrer">
           <img 
             className="h-14 duration-200 hover:scale-110"
             src={githubLogo} 
+            alt="GitHub"
           />
         </a>
-        <a href="mailto:evrahnos@chapman.edu" target="_blank">
+        <a href="mailto:evrahnos@chapman.edu" target="_blank" rel="noreferrer">
           <img
             className="h-14 duration-200 hover:scale-110"
             src={mailLogo}
+            alt="E-Mail"
           />
         </a>
       </div>

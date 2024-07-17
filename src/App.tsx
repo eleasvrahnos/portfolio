@@ -6,10 +6,7 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div
-      id="top"
-      className="bg-richblack"
-    >
+    <div id="top" className="bg-richblack">
       <div className="sticky top-0 z-10">
         <Navbar />
       </div>

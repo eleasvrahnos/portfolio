@@ -5,9 +5,7 @@ const Projects = () => {
   return (
     <div className="flex flex-col items-center">
       {projectStackData.map((project, id) => {
-        return (
-          <ProjectCard key={id} {...project} />
-        );
+        return <ProjectCard key={id} {...project} />;
       })}
     </div>
   );
