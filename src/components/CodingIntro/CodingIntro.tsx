@@ -1,4 +1,4 @@
-import professionalPhoto from '../ProfessionalPFPCropped.jpg';
+import professionalPhoto from '../../assets/codingIntro/ProfessionalPFPCropped.jpg';
 
 const CodingIntro = () => {
     return (

@@ -1,6 +1,6 @@
 interface Props {
   demo: string;
-  links: { [key: string]: string };
+  links?: { [key: string]: string | undefined };
   title: string;
   period: string;
   stack: string[];
@@ -10,7 +10,7 @@ interface Props {
 
 const ProjectCard = ({
   demo,
-  links,
+  links = { "No links provided at the moment.": undefined },
   title,
   period,
   stack,
@@ -18,14 +18,14 @@ const ProjectCard = ({
   desc2,
 }: Props) => {
   return (
-    <div className="m-5 flex max-w-6xl rounded-lg bg-slate-100 p-7">
+    <div className="m-5 flex max-w-6xl rounded-lg bg-thistle p-7">
       <div>
-        <video className="h-72" src={demo} autoPlay muted />
+        <video className="h-72" src={demo} autoPlay muted loop />
         <h1 className="mt-3 text-center font-bold">
           &emsp;
           {Object.entries(links).map(([linkName, linkValue], id) => (
             <a key={id} href={linkValue} target="_blank">
-              <h1 className="inline-block duration-200 hover:scale-125">{linkName}&emsp;</h1>
+              <h1 className={`inline-block ${linkValue ? 'hover:scale-125 duration-200' : 'text-red-600'}`}>{linkName}&emsp;</h1>
             </a>
           ))}
         </h1>
@@ -36,7 +36,7 @@ const ProjectCard = ({
         <div className="flex">
           {stack.map((skill, id) => {
             return (
-              <h2 className="my-1 mr-1 rounded-2xl bg-gray-300 px-2 py-1" key={id}>
+              <h2 className="my-1 mr-1 rounded-2xl bg-parchment px-2 py-1 drop-shadow-md" key={id}>
                 {skill}
               </h2>
             );
