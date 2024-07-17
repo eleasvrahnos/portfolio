@@ -23,5 +23,5 @@
   "include": [
       "./src/",
       "declarations.d.ts"
-, "index.tsx"  ]
+, "src/index.tsx"  ]
 }
