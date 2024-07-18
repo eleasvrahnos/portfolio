@@ -20,7 +20,16 @@ const ProjectCard = ({
   return (
     <div className="m-5 flex w-11/12 max-w-6xl flex-col rounded-lg bg-thistle p-7 lg:flex-row">
       <div className="flex flex-col justify-center">
-        <a href={demo}><video className="mb-0 w-full lg:max-w-lg" src={demo} autoPlay playsInline muted loop /></a>
+        <a href={demo}>
+          <video
+            className="mb-0 w-full lg:max-w-lg"
+            src={demo}
+            autoPlay
+            playsInline
+            muted
+            loop
+          />
+        </a>
         <h1 className="mt-3 text-center font-bold">
           &emsp;
           {Object.entries(links).map(([linkName, linkValue], id) => (
@@ -49,8 +58,10 @@ const ProjectCard = ({
             );
           })}
         </div>
-        <h2 className="flex">{desc1}</h2>
-        <h2>{desc2}</h2>
+        <div className="space-y-3">
+          <h2>{desc1}</h2>
+          <h2>{desc2}</h2>
+        </div>
       </div>
     </div>
   );

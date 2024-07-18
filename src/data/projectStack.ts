@@ -22,17 +22,19 @@ const projectStackDataCurr = [
       "APIs",
     ],
     desc1:
-      "Valdle is a fun trivia mash-up of the popular online games Valorant and Wordle! Test your knowledge by playing through multiple game modes and challenges.",
+      "Valdle is an exciting trivia mash-up that combines the popular online games Valorant and Wordle. Challenge your knowledge by exploring various game modes and engaging in unique challenges.",
     desc2:
-      "Collaboration with 5 other developers, currently garnering over 3 million clicks. Utilized agile developement methodologies with focuses on communication, deadlines, and user-driven feedback. My contributions included full-stack web development, interacting with the Valorant API through Python scripts, employing web scraping and data mining techniques, and maintaining readability and documentation.",
+      "In collaboration with five other developers, Valdle has achieved over 3 million clicks. We utilized agile development methodologies, emphasizing communication, meeting deadlines, and incorporating user feedback. My contributions included full-stack web development, interacting with the Valorant API through Python scripts, using web scraping and data mining techniques, and maintaining readability and documentation.",
   },
   {
     demo: discordbots,
     title: "Discord Bots",
     period: "Apr. 2020 - Present",
-    stack: ["Python", "APIs"],
-    desc1: "TBD.",
-    desc2: "TBD.",
+    stack: ["Python", "APIs", "discord.py"],
+    desc1:
+      "I have developed multiple bot projects, each designed to perform specific tasks for their designated servers. These include a bot that tracks puzzle hunt progress through roles and error checking, and another that enables interaction with an emulated Internet personality through pictures and audio.",
+    desc2:
+      "These bot projects were created to meet clients' needs and solve specific problems. Using Python and the discord.py library, I interacted with the Discord API to perform various server tasks. These include setting server permissions, changing roles and nicknames, and sending messages through server chats and private messages.",
   },
 ];
 
@@ -46,9 +48,9 @@ const projectStackDataPast = [
     period: "Apr. 2024 - May 2024",
     stack: ["HTML", "CSS", "JavaScript", "MySQL", "Python", "Flask", "Figma"],
     desc1:
-      "A final project created for the Database Management course at Chapman University. It demonstrates general knowledge of MySQL through a barebones automatic simulator for the games in the Pokémon series.",
+      "This project, created as a final assignment for the Database Management course at Chapman University, demonstrates comprehensive knowledge of MySQL through a basic automatic simulator for Pokémon games.",
     desc2:
-      "A solo project that employs many features of MySQL and database creation, including create, delete, update, transactions, and ER schemas/diagrams. Figma was used as the tool to create ER diagrams/schemas, as well as overall UI/UX design of the simulation.",
+      "As a solo project, I utilized numerous MySQL features, including creating, deleting, updating records, managing transactions, and designing ER schemas/diagrams. I used Figma for creating ER diagrams and schemas, as well as for the overall UI/UX design of the simulation.",
   },
 ];
 
