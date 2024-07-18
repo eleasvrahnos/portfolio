@@ -3,16 +3,16 @@ import professionalPhoto from "../../assets/codingIntro/ProfessionalPFPCropped.j
 const CodingIntro = () => {
   return (
     <section className="text-gray-300">
-      <div className="flex flex-col items-center justify-center space-x-6 pb-12 pt-6 text-2xl md:flex-row md:py-12 md:text-3xl">
+      <div className="flex flex-col items-center justify-center gap-6 pb-12 pt-6 text-2xl md:flex-row md:py-12 md:text-3xl">
         <img
           src={professionalPhoto}
           className="h-40 rounded-full"
           alt="professional-portrait"
         />
         <div className="mt-5 flex flex-col text-ashgray md:mt-0">
-          <h1 className="">Hi there, my name is</h1>
-          <h1 className="text-5xl font-bold md:text-7xl">Eleas Vrahnos</h1>
-          <h1 className="text-right">and I like to make cool stuff</h1>
+          <h1 className="text-xl min-[480px]:text-2xl">Hi there, my name is</h1>
+          <h1 className="text-center text-4xl font-bold min-[480px]:text-5xl md:text-7xl">Eleas Vrahnos</h1>
+          <h1 className="text-right text-xl min-[480px]:text-2xl">and I like to make cool stuff</h1>
         </div>
       </div>
       <div>
