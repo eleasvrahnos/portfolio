@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav className="bg-richblack p-6">
+    <nav className="bg-richblack p-4">
       <div>
         <ul className="flex flex-wrap justify-center gap-x-[5%] text-lg font-medium text-gray-300 sm:text-2xl">
           <li className="duration-200 hover:scale-125">
