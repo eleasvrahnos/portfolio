@@ -8,7 +8,8 @@ module.exports = {
         "ashgray": "#9DBEBB",
         "prussianblue": "#063550",
         "parchment": "#F4E9CD",
-        "thistle": "#C7B8C7"
+        "thistle": "#C7B8C7",
+        "teal": "#468189"
       }
     }
   },
