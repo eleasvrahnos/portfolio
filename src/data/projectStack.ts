@@ -2,7 +2,7 @@ import valdle from "../assets/projectStack/valdle.mp4";
 import pksimulator from "../assets/projectStack/pksimulator.mp4";
 import discordbots from "../assets/projectStack/discordbots.mp4";
 
-export const projectStackData = [
+const projectStackDataCurr = [
   {
     demo: valdle,
     links: {
@@ -34,6 +34,9 @@ export const projectStackData = [
     desc1: "TBD.",
     desc2: "TBD.",
   },
+];
+
+const projectStackDataPast = [
   {
     demo: pksimulator,
     links: {
@@ -48,3 +51,5 @@ export const projectStackData = [
       "A solo project that employs many features of MySQL and database creation, including create, delete, update, transactions, and ER schemas/diagrams. Figma was used as the tool to create ER diagrams/schemas, as well as overall UI/UX design of the simulation.",
   },
 ];
+
+export { projectStackDataCurr, projectStackDataPast };
