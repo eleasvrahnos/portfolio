@@ -1,6 +1,7 @@
 import resumeIcon from "../../assets/contactImages/resumeIcon.png"
 import { linkData } from "../../data/linkStack";
 import ContactIcon from "./ContactIcon";
+import resume from "../../assets/codingIntro/Eleas_Vrahnos_Resume.pdf"
 
 const ContactLinks = () => {
   return (
@@ -10,10 +11,10 @@ const ContactLinks = () => {
           return <ContactIcon key={id} {...links} />;
         })}
       </div>
-      <button className="inline-flex w-32 items-center rounded bg-white px-2 py-1 font-bold text-black duration-200 hover:bg-gray-400">
+      <a href={resume} target="_blank" rel="noreferrer" className="inline-flex w-32 items-center rounded bg-white px-2 py-1 font-bold text-black duration-200 hover:bg-gray-400">
         <img src={resumeIcon} alt="Resume" className="h-12" />
         <span>Resume</span>
-      </button>
+      </a>
     </div>
   );
 };

@@ -36,7 +36,7 @@ const Projects = () => {
       <div className="relative my-10 flex items-center justify-center">
         <div className="absolute w-full border-4 border-ashgray"></div>
         <div className="z-10 w-3/4 bg-ashgray py-2 text-center text-black lg:w-1/2">
-          <span className="text-5xl font-bold">MORE PAST PROJECTS TO BE ADDED!</span>
+          <span className="text-5xl font-bold">MORE PAST PROJECTS AND EXPERIENCE TO BE ADDED!</span>
         </div>
       </div>
     </div>
