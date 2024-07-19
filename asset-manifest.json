@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.eb24474b.css",
-    "main.js": "/portfolio/static/js/main.cc61962e.js",
+    "main.js": "/portfolio/static/js/main.f71ecfce.js",
     "static/media/rubytutorial.mp4": "/portfolio/static/media/rubytutorial.d00615448bc3becae20d.mp4",
     "static/media/valdle.mp4": "/portfolio/static/media/valdle.171e10a8283ff7387c35.mp4",
     "static/media/discordbots.mp4": "/portfolio/static/media/discordbots.85d4dc525f271ae36fc3.mp4",
@@ -16,6 +16,7 @@
     "static/media/flask.png": "/portfolio/static/media/flask.27826384e565f59401b0.png",
     "static/media/css3.png": "/portfolio/static/media/css3.1ee9266ba0475cc6490f.png",
     "static/media/linkedinLogo.png": "/portfolio/static/media/linkedinLogo.6dabdd0113d01b2c732a.png",
+    "static/media/Eleas_Vrahnos_Resume.pdf": "/portfolio/static/media/Eleas_Vrahnos_Resume.df604cb6caba699af47f.pdf",
     "static/media/git.png": "/portfolio/static/media/git.8dd3688bb1415872d423.png",
     "static/media/java.png": "/portfolio/static/media/java.95a2348a4af3182da2b7.png",
     "static/media/cplusplus.png": "/portfolio/static/media/cplusplus.30a10d39063b25de4cf8.png",
@@ -30,10 +31,10 @@
     "static/media/javascript.png": "/portfolio/static/media/javascript.266bd9fb2663dcc057b4.png",
     "index.html": "/portfolio/index.html",
     "main.eb24474b.css.map": "/portfolio/static/css/main.eb24474b.css.map",
-    "main.cc61962e.js.map": "/portfolio/static/js/main.cc61962e.js.map"
+    "main.f71ecfce.js.map": "/portfolio/static/js/main.f71ecfce.js.map"
   },
   "entrypoints": [
     "static/css/main.eb24474b.css",
-    "static/js/main.cc61962e.js"
+    "static/js/main.f71ecfce.js"
   ]
 }
