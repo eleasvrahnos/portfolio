@@ -115,5 +115,5 @@ export const techStackData = [
   {
     title: "Heroku",
     imageSrc: heroku,
-  },
+  }
 ];

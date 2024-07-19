@@ -18,7 +18,7 @@ const ProjectCard = ({
   desc2,
 }: Props) => {
   return (
-    <div className="m-5 flex w-11/12 max-w-6xl flex-col rounded-lg bg-thistle p-7 lg:flex-row">
+    <div className="flex w-11/12 max-w-6xl flex-col rounded-lg bg-thistle p-7 lg:flex-row">
       <div className="flex flex-col justify-center">
         <a href={demo}>
           <video
@@ -31,13 +31,13 @@ const ProjectCard = ({
           />
         </a>
         <h1 className="mt-3 text-center font-bold">
-          &emsp;
+          &emsp;&emsp;
           {Object.entries(links).map(([linkName, linkValue], id) => (
             <a key={id} href={linkValue} target="_blank" rel="noreferrer">
               <h1
                 className={`inline-block ${linkValue ? "hover:scale-125 duration-200" : "text-red-600"}`}
               >
-                {linkName}&emsp;
+                {linkName}&emsp;&emsp;
               </h1>
             </a>
           ))}
