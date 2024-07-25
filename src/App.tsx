@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar/Navbar";
 import CodingIntro from "./components/CodingIntro/CodingIntro";
 import TechStack from "./components/TechStack/TechStack";
 import Projects from "./components/Projects/Projects";
+import Experience from "./components/Experience/Experience";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <CodingIntro />
       <TechStack />
       <Projects />
+      <Experience />
       <Footer />
     </div>
   );

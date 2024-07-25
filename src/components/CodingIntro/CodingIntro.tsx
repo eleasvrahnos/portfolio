@@ -37,7 +37,7 @@ const CodingIntro = () => {
             for new opportunities to help me grow in the space.
           </h1>
           <h1>
-            Away from the computer, I like to play and compose music, rock climb, and play video games.
+            Away from the computer, I like to play/compose music, rock climb, and play video games.
           </h1>
           <h1>
             Feel free to connect with me on LinkedIn and contact me through my
