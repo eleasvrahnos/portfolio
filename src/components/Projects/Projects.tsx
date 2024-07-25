@@ -10,7 +10,7 @@ const Projects = () => {
       <div className="relative my-10 flex items-center justify-center">
         <div className="absolute w-full border-4 border-ashgray"></div>
         <div className="z-10 w-3/4 -skew-x-6 transform bg-ashgray py-2 text-center text-black lg:w-1/2">
-          <span className="text-5xl font-bold">CURRENT PROJECTS</span>
+          <span className="text-4xl font-bold sm:text-5xl">CURRENT PROJECTS</span>
         </div>
       </div>
 
@@ -23,7 +23,7 @@ const Projects = () => {
       <div className="relative my-10 flex items-center justify-center">
         <div className="absolute w-full border-4 border-ashgray"></div>
         <div className="z-10 w-3/4 skew-x-6 transform bg-ashgray py-2 text-center text-black lg:w-1/2">
-          <span className="text-5xl font-bold">PAST PROJECTS</span>
+          <span className="text-4xl font-bold sm:text-5xl">PAST PROJECTS</span>
         </div>
       </div>
 

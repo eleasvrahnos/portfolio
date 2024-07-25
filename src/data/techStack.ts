@@ -1,3 +1,4 @@
+import python from "../assets/techStack/python.png";
 import html5 from "../assets/techStack/html5.png";
 import css3 from "../assets/techStack/css3.png";
 import javascript from "../assets/techStack/javascript.png";
@@ -28,6 +29,10 @@ import heroku from "../assets/techStack/heroku.png";
 import fusion360 from "../assets/techStack/fusion360.png";
 
 export const techStackData = [
+  {
+    title: "Python",
+    imageSrc: python,
+  },
   {
     title: "HTML5",
     imageSrc: html5,

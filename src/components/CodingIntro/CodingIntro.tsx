@@ -23,7 +23,7 @@ const CodingIntro = () => {
         </div>
       </div>
       <div>
-        <div className="mx-10 text-balance text-center text-xl text-gray-300">
+        <div className="text-md mx-4 text-balance text-center text-gray-300 sm:text-xl">
           <h1>Thanks for stopping by my portfolio!</h1>
           <h1>
             I am a{" "}
