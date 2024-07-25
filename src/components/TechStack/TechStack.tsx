@@ -3,7 +3,7 @@ import TechCard from "./TechCard";
 
 const TechStack = () => {
   return (
-    <div className="relative flex justify-center">
+    <div className="relative mt-4 flex justify-center">
       <div className="absolute z-10 mb-2 w-40 -skew-x-6 transform justify-center bg-ashgray py-2 text-center text-black">
         <span className="font-bold">TECH STACK</span>
       </div>
