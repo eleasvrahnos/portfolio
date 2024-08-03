@@ -28,7 +28,7 @@ const CodingIntro = () => {
           <h1>
             I am a{" "}
             <span className="font-bold text-gray-300">
-              full-stack software engineer
+              full-stack software engineer and web developer
             </span>{" "}
             driven by continuous learning and discovery.
           </h1>

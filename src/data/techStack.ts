@@ -4,28 +4,35 @@ import css3 from "../assets/techStack/css3.png";
 import javascript from "../assets/techStack/javascript.png";
 import tailwindcss from "../assets/techStack/tailwindcss.png";
 import bootstrapcss from "../assets/techStack/bootstrapcss.png";
+import materialui from "../assets/techStack/materialui.png";
+import nextjs from "../assets/techStack/nextjs.png";
 import typescript from "../assets/techStack/typescript.png";
 import mysql from "../assets/techStack/mysql.png";
+import sqlite from "../assets/techStack/sqlite.png";
+import mongodb from "../assets/techStack/mongodb.png";
+import express from "../assets/techStack/express.png";
 import react from "../assets/techStack/react.png";
+import nodejs from "../assets/techStack/nodejs.png";
+import redux from "../assets/techStack/redux.png";
 import flask from "../assets/techStack/flask.png";
 import rails from "../assets/techStack/rails.png";
 import opengl from "../assets/techStack/opengl.png";
 import figma from "../assets/techStack/figma.png";
 import docker from "../assets/techStack/docker.png";
+import heroku from "../assets/techStack/heroku.png";
+import vercel from "../assets/techStack/vercel.png";
+import jenkins from "../assets/techStack/jenkins.png";
 import java from "../assets/techStack/java.png";
 import cplusplus from "../assets/techStack/cplusplus.png";
 import c from "../assets/techStack/c.png";
-import linux from "../assets/techStack/git.png";
-import sqlite from "../assets/techStack/sqlite.png";
+import linux from "../assets/techStack/linux.png";
 import ruby from "../assets/techStack/ruby.png";
 import jquery from "../assets/techStack/jquery.png";
 import git from "../assets/techStack/git.png";
 import github from "../assets/techStack/github.png";
 import unity from "../assets/techStack/unity.png";
 import haskell from "../assets/techStack/haskell.png";
-import jenkins from "../assets/techStack/jenkins.png";
 import vsc from "../assets/techStack/vsc.png";
-import heroku from "../assets/techStack/heroku.png";
 import fusion360 from "../assets/techStack/fusion360.png";
 
 export const techStackData = [
@@ -54,6 +61,14 @@ export const techStackData = [
     imageSrc: bootstrapcss,
   },
   {
+    title: "Material UI",
+    imageSrc: materialui,
+  },
+  {
+    title: "Next.js",
+    imageSrc: nextjs,
+  },
+  {
     title: "TypeScript",
     imageSrc: typescript,
   },
@@ -62,8 +77,24 @@ export const techStackData = [
     imageSrc: mysql,
   },
   {
+    title: "MongoDB",
+    imageSrc: mongodb,
+  },
+  {
+    title: "Express",
+    imageSrc: express,
+  },
+  {
     title: "React",
     imageSrc: react,
+  },
+  {
+    title: "node.js",
+    imageSrc: nodejs,
+  },
+  {
+    title: "Redux",
+    imageSrc: redux,
   },
   {
     title: "Flask",
@@ -84,6 +115,18 @@ export const techStackData = [
   {
     title: "Docker",
     imageSrc: docker,
+  },
+  {
+    title: "Heroku",
+    imageSrc: heroku,
+  },
+  {
+    title: "Vercel",
+    imageSrc: vercel,
+  },
+  {
+    title: "Jenkins",
+    imageSrc: jenkins,
   },
   {
     title: "Java",
@@ -130,16 +173,8 @@ export const techStackData = [
     imageSrc: haskell,
   },
   {
-    title: "Jenkins",
-    imageSrc: jenkins,
-  },
-  {
     title: "VS Code",
     imageSrc: vsc,
-  },
-  {
-    title: "Heroku",
-    imageSrc: heroku,
   },
   {
     title: "Fusion 360",

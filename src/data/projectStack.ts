@@ -1,3 +1,4 @@
+import ciphercypher from "../assets/projectStack/ciphercypher.png";
 import valdle from "../assets/projectStack/valdle.mp4";
 import pksimulator from "../assets/projectStack/pksimulator.mp4";
 import discordbots from "../assets/projectStack/discordbots.mp4";
@@ -9,6 +10,33 @@ import wheresjason from "../assets/projectStack/wheresjason.mp4";
 import gtargmt from "../assets/projectStack/gtargmt.png";
 
 const projectStackDataCurr = [
+  {
+    demo: ciphercypher,
+    title: "Cipher Cypher | Full-Stack Developer",
+    period: "est. late August",
+    stack: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "MongoDB",
+      "Express",
+      "React",
+      "Material UI",
+      "node.js",
+      "Redux",
+      "Vercel",
+      "User Auth",
+      "GitHub",
+      "RESTful",
+      "APIs",
+      "Cryptography"
+    ],
+    desc1:
+      "Cipher Cypher is a challenging series of 50 of my own visual puzzles that test your mental acuity using math, cryptography, trivia, and wit. With three difficulty levels, two of which remain unbeaten, this passion project merges my love for puzzles and software development.",
+    desc2:
+      "This project is a deep dive into the MERN tech stack, utilizing MongoDB for user progress tracking, React/Redux/Material UI for the frontend, and Node/Express for the RESTful backend. User authentication ensures progress tracking throughout the challenge.",
+    isVideo: false,
+  },
   {
     demo: valdle,
     links: {

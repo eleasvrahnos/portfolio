@@ -10,9 +10,21 @@ const experienceStackData = [
     },
     title: "Software Engineering Fellowship | Headstarter AI",
     period: "Jul. 2024 - Present | Remote",
-    stack: ["IN PROGRESS"],
-    desc1: "In progress.",
-    desc2: "Will update with a detailed description in the near future.",
+    stack: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Next.js",
+      "Material UI",
+      "OpenAI",
+      "StripeAI",
+      "Google Analytics",
+      "and more...",
+    ],
+    desc1:
+      "To enhance my skills over the summer, I am participating in a software engineering fellowship that includes learning new technologies, conducting mock interviews, and attending weekly Zoom sessions with successful colleagues and startup founders.",
+    desc2:
+      "During the fellowship, I am creating various projects from design to deployment with other fellows using MVC design patterns. Topics covered include Agile, CI/CD, Git, and microservice patterns.",
   },
   {
     demo: freelancetutor,
@@ -31,7 +43,7 @@ const experienceStackData = [
       "In my free time, I am passionate about both learning new skills and sharing my expertise with others. I have tutored 30 students across a range of subjects, helping them enhance their problem-solving skills, achieve a deeper understanding of the material, and improve their academic performance.",
     desc2:
       "I tutor across a wide range of fields within Mathematics, Science, and Introduction to Programming. Specifically, for programming, I have taught several students how to code in Python and Java. Through strategic outreach, referrals, and personalized service, I have been able to establish a loyal customer base.",
-    },
+  },
   {
     demo: codingminds,
     links: {
