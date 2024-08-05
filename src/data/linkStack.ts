@@ -15,7 +15,7 @@ export const linkData = [
   },
   {
     platform: "E-mail",
-    link: "mailto:evrahnos@chapman.edu",
+    link: "mailto:evrahnos1966@gmail.com",
     image: mailLogo,
   }
 ];
