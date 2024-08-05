@@ -37,7 +37,7 @@ const projectStackDataCurr = [
     desc1:
       "Cipher Cypher is a challenging series of 50 of my own visual puzzles that test your mental acuity using math, cryptography, trivia, and wit. With three difficulty levels, two of which remain unbeaten, this passion project merges my love for puzzles and software development.",
     desc2:
-      "This project is a deep dive into the MERN tech stack, utilizing user authentication/MongoDB for user progress tracking, React/Redux/Material UI for the frontend, and Node/Express for the RESTful backend. This website is a migration from a Discord server and bot, which also host these puzzles and their discussions. Everything can be viewed and solved from there currently.",
+      "This project is a deep dive into the MERN tech stack, utilizing user authentication/MongoDB for user progress tracking, React/Redux/Material UI for the frontend, and Node/Express for the RESTful backend. This Vercel-deployed website is a migration from a Discord server and bot, which also host these puzzles and their discussions. Everything can be viewed and solved from there currently.",
     isVideo: false,
   },
   {
@@ -60,13 +60,14 @@ const projectStackDataCurr = [
       "Agile",
       "APIs",
       "Google Analytics",
+      "SEO",
       "Collaboration",
       "Project Management",
     ],
     desc1:
       "Valdle is an exciting trivia mash-up that combines the popular online games Valorant and Wordle. Challenge your knowledge by exploring various game modes and engaging in unique challenges.",
     desc2:
-      "In collaboration with 5 other developers, Valdle has achieved over 3 million clicks! We utilized agile development methodologies, emphasizing communication, meeting deadlines, and incorporating user feedback. My contributions included full-stack web development, interacting with the Valorant API through Python scripts, using web scraping and data mining techniques, and maintaining readability and documentation.",
+      "In collaboration with 5 other developers, Valdle has achieved over 4 million clicks! We utilized agile development methodologies, emphasized communication, kept track of deadlines, and incorporated user feedback. My contributions included full-stack web development and SEO, interacting with the Valorant API through Python scripts, using web scraping and data mining techniques, and maintaining readability and documentation.",
   },
   {
     demo: discordbots,
