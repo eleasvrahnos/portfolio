@@ -47,7 +47,7 @@ const experienceStackData = [
   {
     demo: codingminds,
     links: {
-      Website: "<insert link here>",
+      Website: "https://codingmind.com/",
     },
     title: "Coding Minds, Inc. | Part-Time Instructor",
     period: "Sep. 2022 - Jan. 2023 | Irvine, CA",
