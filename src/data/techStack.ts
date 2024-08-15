@@ -22,6 +22,7 @@ import docker from "../assets/techStack/docker.png";
 import heroku from "../assets/techStack/heroku.png";
 import vercel from "../assets/techStack/vercel.png";
 import jenkins from "../assets/techStack/jenkins.png";
+import postman from "../assets/techStack/postman.png";
 import java from "../assets/techStack/java.png";
 import cplusplus from "../assets/techStack/cplusplus.png";
 import c from "../assets/techStack/c.png";
@@ -127,6 +128,10 @@ export const techStackData = [
   {
     title: "Jenkins",
     imageSrc: jenkins,
+  },
+  {
+    title: "Postman",
+    imageSrc: postman,
   },
   {
     title: "Java",

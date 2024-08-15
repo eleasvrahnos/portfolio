@@ -31,6 +31,7 @@ const projectStackDataCurr = [
       "Vercel",
       "User Auth / BCrypt",
       "GitHub / Git",
+      "Postman",
       "CI/CD",
       "RESTful",
       "APIs",
