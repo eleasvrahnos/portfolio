@@ -29,7 +29,9 @@ const projectStackDataCurr = [
       "node.js",
       "Next.js",
       "Vercel",
-      "User Auth / BCrypt",
+      "User Auth",
+      "JWTs",
+      "BCrypt",
       "GitHub / Git",
       "Postman",
       "CI/CD",
@@ -38,9 +40,9 @@ const projectStackDataCurr = [
       "Cryptography"
     ],
     desc1:
-      "Cipher Cypher is a challenging series of over 50 of my own visual puzzles that test your mental acuity using math, cryptography, trivia, and wit. With three difficulty levels, two of which remain unbeaten, this passion project merges my love for puzzles and software development.",
+      "Cipher Cypher is a challenging series of over 50 of my own visual puzzles that test your mental acuity using math, cryptography, trivia, and wit. With three difficulty levels, two of which remain unbeaten, this passion project merges my love for puzzles and software development. Try it out if your mind needs a challenge!",
     desc2:
-      "This project is a deep dive into the MERN tech stack, utilizing User Auth/BCrypt/MongoDB for user progress tracking, React/Tailwind/Next.js for the frontend, and Node/Express for the RESTful backend. This Vercel-deployed website is a migration from a Discord server and bot, which also host these puzzles and their discussions. Everything can be viewed and solved from there currently.",
+      "This project is a deep dive into the MERN tech stack, utilizing JWTs/BCrypt/MongoDB for user progress tracking, React/Tailwind/Next.js for the frontend, and Node/Express for the RESTful backend. This Vercel-deployed website is a migration from a Discord server and bot, which also host these puzzles and their discussions. Everything can be viewed and solved from there currently.",
     isVideo: false,
   },
   {
