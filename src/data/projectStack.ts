@@ -13,8 +13,9 @@ const projectStackDataCurr = [
   {
     demo: ciphercypher,
     title: "Cipher Cypher | Full-Stack Developer",
-    period: "est. late August",
+    period: "Jul. 2024 - Sep. 2024",
     links: {
+      Website: "https://ciphercypher.vercel.app/",
       Discord: "https://discord.gg/yPJR55J",
     },
     stack: [
@@ -42,7 +43,7 @@ const projectStackDataCurr = [
     desc1:
       "Cipher Cypher is a challenging series of over 50 of my own visual puzzles that test your mental acuity using math, cryptography, trivia, and wit. With three difficulty levels, two of which remain unbeaten, this passion project merges my love for puzzles and software development. Try it out if your mind needs a challenge!",
     desc2:
-      "This project is a deep dive into the MERN tech stack, utilizing JWTs/BCrypt/MongoDB for user progress tracking, React/Tailwind/Next.js for the frontend, and Node/Express for the RESTful backend. This Vercel-deployed website is a migration from a Discord server and bot, which also host these puzzles and their discussions. Everything can be viewed and solved from there currently.",
+      "This project is a deep dive into the MERN tech stack, utilizing JWTs/BCrypt/MongoDB for user progress tracking, React/Tailwind/Next.js for the frontend, and Node/Express for the RESTful backend. This Vercel-deployed website is a migration from a Discord server and bot, which also host these puzzles and their discussions.",
     isVideo: false,
   },
   {
