@@ -8,8 +8,8 @@ const experienceStackData = [
     links: {
       Website: "https://headstarter.co/",
     },
-    title: "Software Engineering Fellowship | Headstarter AI",
-    period: "Jul. 2024 - Present | Remote",
+    title: "Headstarter AI | Software Engineering Fellow",
+    period: "Jul. 2024 - Sep. 2024 | Remote",
     stack: [
       "HTML",
       "CSS",
@@ -22,9 +22,9 @@ const experienceStackData = [
       "and more...",
     ],
     desc1:
-      "To enhance my skills over the summer, I am participating in a software engineering fellowship that includes learning new technologies, conducting mock interviews, and attending weekly Zoom sessions with successful colleagues and startup founders.",
+      "To enhance my skills over the summer following college graduation, I participated in a software engineering fellowship that included learning new technologies, conducting mock interviews, and attending weekly Zoom sessions with successful colleagues and startup founders.",
     desc2:
-      "During the fellowship, I am creating various projects from design to deployment with other fellows using MVC design patterns. Topics covered include Agile, CI/CD, Git, and microservice patterns.",
+      "During the fellowship, I have created various projects from design to deployment with other fellows using MVC design patterns. Topics covered include Agile, CI/CD, Git, and microservice patterns.",
   },
   {
     demo: freelancetutor,
