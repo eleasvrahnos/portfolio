@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8c020221.css",
-    "main.js": "/portfolio/static/js/main.5ea75b2e.js",
+    "main.js": "/portfolio/static/js/main.62d89b78.js",
     "static/media/wheresjason.mp4": "/portfolio/static/media/wheresjason.9daf2eb4c4f19e14a9b4.mp4",
     "static/media/valdle.mp4": "/portfolio/static/media/valdle.171e10a8283ff7387c35.mp4",
     "static/media/ciphercypher.png": "/portfolio/static/media/ciphercypher.82d2786a05fcf4b52307.png",
+    "static/media/satellitetelemetrysystem.mp4": "/portfolio/static/media/satellitetelemetrysystem.6480487cf0e143f75cf2.mp4",
     "static/media/discordbots.mp4": "/portfolio/static/media/discordbots.85d4dc525f271ae36fc3.mp4",
     "static/media/pksimulator.mp4": "/portfolio/static/media/pksimulator.1c7e632720cf89e88ff8.mp4",
     "static/media/gtargmt.png": "/portfolio/static/media/gtargmt.db177b31cd60583dd430.png",
@@ -16,6 +17,7 @@
     "static/media/rubytutorial.png": "/portfolio/static/media/rubytutorial.e873aeadaf95ef18f212.png",
     "static/media/jenkins.png": "/portfolio/static/media/jenkins.bac6ddc1dc1e387ae9ac.png",
     "static/media/bootstrapcss.png": "/portfolio/static/media/bootstrapcss.cd67fb5a17e6b5ad6128.png",
+    "static/media/postgresql.png": "/portfolio/static/media/postgresql.7aa68c9ffc7876670f2c.png",
     "static/media/redux.png": "/portfolio/static/media/redux.1b4bb5fceb01b19da59d.png",
     "static/media/ruby.png": "/portfolio/static/media/ruby.638d2e0c1b408c222ae2.png",
     "static/media/ProfessionalPFPCropped.jpg": "/portfolio/static/media/ProfessionalPFPCropped.198716fd9254fcccaf2b.jpg",
@@ -45,15 +47,16 @@
     "static/media/tailwindcss.png": "/portfolio/static/media/tailwindcss.ae40dbca0686d9cfdca0.png",
     "static/media/express.png": "/portfolio/static/media/express.39a0f4c3d981885c64f8.png",
     "static/media/haskell.png": "/portfolio/static/media/haskell.53618a5bb38f05665d1c.png",
+    "static/media/go.png": "/portfolio/static/media/go.6a3cd1884425f3b03c7d.png",
     "static/media/rails.png": "/portfolio/static/media/rails.4b996d690c85dd90404e.png",
     "static/media/mysql.png": "/portfolio/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.266bd9fb2663dcc057b4.png",
     "index.html": "/portfolio/index.html",
     "main.8c020221.css.map": "/portfolio/static/css/main.8c020221.css.map",
-    "main.5ea75b2e.js.map": "/portfolio/static/js/main.5ea75b2e.js.map"
+    "main.62d89b78.js.map": "/portfolio/static/js/main.62d89b78.js.map"
   },
   "entrypoints": [
     "static/css/main.8c020221.css",
-    "static/js/main.5ea75b2e.js"
+    "static/js/main.62d89b78.js"
   ]
 }
