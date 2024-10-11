@@ -1,3 +1,4 @@
+import satellitetelemetrysystem from "../assets/projectStack/satellitetelemetrysystem.mp4"
 import ciphercypher from "../assets/projectStack/ciphercypher.png";
 import valdle from "../assets/projectStack/valdle.mp4";
 import pksimulator from "../assets/projectStack/pksimulator.mp4";
@@ -11,6 +12,37 @@ import gtargmt from "../assets/projectStack/gtargmt.png";
 
 const projectStackDataCurr = [
   {
+    demo: satellitetelemetrysystem,
+    title: "Satellite Telemetry System | Full-Stack Developer",
+    period: "Oct. 2024",
+    links: {
+      GitHub: "https://github.com/eleasvrahnos/satellite-telemetry-system",
+    },
+    stack: [
+      "HTML",
+      "Tailwind CSS",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "PostgreSQL",
+      "Go",
+      "GORM",
+      "Gin",
+      "Python",
+      "Socket Programming",
+      "GitHub / Git",
+      "RESTful",
+      "APIs",
+      "Docker",
+      "Scalability"
+    ],
+    desc1:
+      "The application is a simulation of a real-time telemetry monitoring system that displays live and historical data from multiple satellite connections. Users can view important telemetry data and the system updates continuously, providing an efficient and scalable way to monitor satellite operations and detect any issues promptly. This app was created as part of a Take Home Project and challenged me to learn Go and PostgreSQL.",
+    desc2:
+      "The frontend is built using React, Tailwind CSS, and TypeScript. The backend API is powered by Go, utilizing the Gin web framework for handling HTTP requests and GORM for database interactions with PostgreSQL. Python is used to simluate generating and receiving telemetry data. Docker is used to containerize the entire application, making it easy to deploy and run locally.",
+    isVideo: true,
+  },
+  {
     demo: ciphercypher,
     title: "Cipher Cypher | Full-Stack Developer",
     period: "Jul. 2024 - Sep. 2024",
@@ -20,13 +52,12 @@ const projectStackDataCurr = [
     },
     stack: [
       "HTML",
-      "CSS",
       "JavaScript",
       "TypeScript",
       "MongoDB / Mongoose",
       "Express",
       "React",
-      "Tailwind",
+      "Tailwind CSS",
       "node.js",
       "Next.js",
       "Vercel",
@@ -43,7 +74,7 @@ const projectStackDataCurr = [
     desc1:
       "Cipher Cypher is a challenging series of over 50 of my own visual puzzles that test your mental acuity using math, cryptography, trivia, and wit. With three difficulty levels, two of which remain unbeaten, this passion project merges my love for puzzles and software development. Try it out if your mind needs a challenge!",
     desc2:
-      "This project is a deep dive into the MERN tech stack, utilizing JWTs/BCrypt/MongoDB for user progress tracking, React/Tailwind/Next.js for the frontend, and Node/Express for the RESTful backend. This Vercel-deployed website is a migration from a Discord server and bot, which also host these puzzles and their discussions.",
+      "This project is a deep dive into the MERN tech stack, utilizing JWTs/BCrypt/MongoDB for user progress tracking, React/Tailwind CSS/Next.js for the frontend, and Node/Express for the RESTful backend. This Vercel-deployed website is a migration from a Discord server and bot, which also host these puzzles and their discussions.",
     isVideo: false,
   },
   {

@@ -9,6 +9,7 @@ import nextjs from "../assets/techStack/nextjs.png";
 import typescript from "../assets/techStack/typescript.png";
 import mysql from "../assets/techStack/mysql.png";
 import sqlite from "../assets/techStack/sqlite.png";
+import postgresql from "../assets/techStack/postgresql.png";
 import mongodb from "../assets/techStack/mongodb.png";
 import express from "../assets/techStack/express.png";
 import react from "../assets/techStack/react.png";
@@ -26,6 +27,7 @@ import postman from "../assets/techStack/postman.png";
 import java from "../assets/techStack/java.png";
 import cplusplus from "../assets/techStack/cplusplus.png";
 import c from "../assets/techStack/c.png";
+import go from "../assets/techStack/go.png";
 import linux from "../assets/techStack/linux.png";
 import ruby from "../assets/techStack/ruby.png";
 import jquery from "../assets/techStack/jquery.png";
@@ -76,6 +78,14 @@ export const techStackData = [
   {
     title: "MySQL",
     imageSrc: mysql,
+  },
+  {
+    title: "SQLite",
+    imageSrc: sqlite,
+  },
+  {
+    title: "PostgreSQL",
+    imageSrc: postgresql,
   },
   {
     title: "MongoDB",
@@ -146,12 +156,12 @@ export const techStackData = [
     imageSrc: c,
   },
   {
-    title: "Unix/Linux",
-    imageSrc: linux,
+    title: "Go",
+    imageSrc: go,
   },
   {
-    title: "SQLite",
-    imageSrc: sqlite,
+    title: "Unix/Linux",
+    imageSrc: linux,
   },
   {
     title: "Ruby",
