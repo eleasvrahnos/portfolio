@@ -39,7 +39,7 @@ const projectStackDataCurr = [
     desc1:
       "The application is a simulation of a real-time telemetry monitoring system that displays live and historical data from multiple satellite connections. Users can view important telemetry data and the system updates continuously, providing an efficient and scalable way to monitor satellite operations and detect any issues promptly. This app was created as part of a Take Home Project and challenged me to learn Go and PostgreSQL.",
     desc2:
-      "The frontend is built using React, Tailwind CSS, and TypeScript. The backend API is powered by Go, utilizing the Gin web framework for handling HTTP requests and GORM for database interactions with PostgreSQL. Python is used to simluate generating and receiving telemetry data. Docker is used to containerize the entire application, making it easy to deploy and run locally.",
+      "The frontend is built using React, Tailwind CSS, and TypeScript. The backend API is powered by Go, utilizing the Gin web framework for handling HTTP requests and GORM for database interactions with PostgreSQL. Python is used to simluate generating and receiving telemetry data. I researched Docker and using Docker Compose to containerize the entire application, making it easy to deploy and run locally.",
     isVideo: true,
   },
   {
