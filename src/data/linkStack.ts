@@ -1,5 +1,5 @@
-import linkedinLogo from "../assets/contactImages/linkedinLogo.png";
 import githubLogo from "../assets/contactImages/githubLogo.png";
+import linkedinLogo from "../assets/contactImages/linkedinLogo.png";
 import mailLogo from "../assets/contactImages/mailLogo.png";
 
 export const linkData = [

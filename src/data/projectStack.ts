@@ -1,14 +1,14 @@
-import satellitetelemetrysystem from "../assets/projectStack/satellitetelemetrysystem.mp4"
 import ciphercypher from "../assets/projectStack/ciphercypher.png";
-import valdle from "../assets/projectStack/valdle.mp4";
-import pksimulator from "../assets/projectStack/pksimulator.mp4";
 import discordbots from "../assets/projectStack/discordbots.mp4";
-import rubytutorial from "../assets/projectStack/rubytutorial.png";
-import proglangreportpdf from "../assets/projectStack/proglangreport.pdf";
-import proglangreportdemo from "../assets/projectStack/proglangdemo.png";
-import learninggaming from "../assets/projectStack/learninggaming.png";
-import wheresjason from "../assets/projectStack/wheresjason.mp4";
 import gtargmt from "../assets/projectStack/gtargmt.png";
+import learninggaming from "../assets/projectStack/learninggaming.png";
+import pksimulator from "../assets/projectStack/pksimulator.mp4";
+import proglangreportdemo from "../assets/projectStack/proglangdemo.png";
+import proglangreportpdf from "../assets/projectStack/proglangreport.pdf";
+import rubytutorial from "../assets/projectStack/rubytutorial.png";
+import satellitetelemetrysystem from "../assets/projectStack/satellitetelemetrysystem.mp4";
+import valdle from "../assets/projectStack/valdle.mp4";
+import wheresjason from "../assets/projectStack/wheresjason.mp4";
 
 const projectStackDataCurr = [
   {

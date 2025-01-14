@@ -1,6 +1,6 @@
+import codingminds from "../assets/experienceStack/codingminds.jpg";
 import headstarter from "../assets/experienceStack/headstarter.jpg";
 import freelancetutor from "../assets/experienceStack/tutor.png";
-import codingminds from "../assets/experienceStack/codingminds.jpg";
 
 const experienceStackData = [
   {

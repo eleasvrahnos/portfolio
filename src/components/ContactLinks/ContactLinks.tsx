@@ -1,7 +1,7 @@
+import resume from "../../assets/codingIntro/resume.pdf";
 import resumeIcon from "../../assets/contactImages/resumeIcon.png";
 import { linkData } from "../../data/linkStack";
 import ContactIcon from "./ContactIcon";
-import resume from "../../assets/codingIntro/resume.pdf";
 
 const ContactLinks = () => {
   return (
