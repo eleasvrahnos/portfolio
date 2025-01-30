@@ -1,0 +1,76 @@
+import { Project } from "../data/projects";
+
+interface ProjectCardProps {
+  project: Project;
+}
+
+const ProjectCard: React.FC<ProjectCardProps> = ({
+  project: {
+    demo,
+    title,
+    period,
+    links,
+    description1,
+    description2,
+    stack,
+    isVideo,
+  },
+}: ProjectCardProps) => {
+  return (
+    <div className="flex h-auto w-full flex-col rounded-lg border-2 border-frappelight2 bg-frappedark2 p-3 duration-100 hover:bg-frappedark1">
+      <div className="flex w-full justify-between text-milk">
+        <div className="flex gap-3">
+          <p>{title}</p>
+          <div className="flex flex-wrap justify-center gap-3">
+            {stack.map((technology, index) => (
+              <img
+                key={index}
+                src={technology.icon}
+                onClick={() => window.open(technology.link, "_blank")}
+                alt={technology.name}
+                title={technology.name}
+                className="h-6 cursor-pointer"
+              />
+            ))}
+          </div>
+        </div>
+        <p className="text-right text-sm">{period}</p>
+      </div>
+      <div className="flex flex-col items-center justify-between gap-4 lg:flex-row">
+        <div className="my-3 space-y-3 text-xs">
+          <p>{description1}</p>
+          <p>{description2}</p>
+        </div>
+        <div className="gap-4">
+          <div className="flex items-center justify-center">
+            {isVideo ? (
+              <video
+                className="rounded-lg"
+                autoPlay
+                muted
+                loop
+                src={demo}
+              ></video>
+            ) : (
+              <img className="rounded-lg" src={demo} alt={title} />
+            )}
+          </div>
+          <div className="mt-2 flex justify-center gap-2">
+            {links.map((link, index) => (
+              <button
+                key={index}
+                onClick={() => window.open(link.url, "_blank")}
+                className="button flex items-center gap-1 p-1"
+              >
+                <link.icon />
+                <p>{link.label}</p>
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ProjectCard;

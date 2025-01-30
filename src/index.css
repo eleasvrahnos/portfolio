@@ -1,8 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-    /* overflow-x: hidden; */
-    /* position: relative; */
+  font-family: "Roboto Mono", monospace;
+  color: #cab9b9;
+}
+
+.font-raleway {
+  @apply text-2xl font-bold text-milk;
+}
+
+.button {
+  @apply flex cursor-pointer items-center justify-center rounded-md bg-frappelight2 text-frappedark3 duration-100 hover:bg-frappelight1;
+}
+
+.button:active {
+  @apply scale-90;
 }
