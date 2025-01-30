@@ -30,6 +30,7 @@ const techDataBOTH = [
     technologies.redux,
     technologies.tailwind,
     technologies.typescript,
+    technologies.vue,
   ],
   [
     // Backend

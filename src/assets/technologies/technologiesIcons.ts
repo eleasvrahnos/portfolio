@@ -40,6 +40,7 @@ import typescript from "./icons/typescript.png";
 import unity from "./icons/unity.png";
 import vercel from "./icons/vercel.png";
 import vsc from "./icons/vsc.png";
+import vue from "./icons/vue.png";
 
 export type TechIcon = {
   name: string;
@@ -150,6 +151,7 @@ const technologies: { [key: string]: TechIcon } = {
     icon: vsc,
     link: "https://code.visualstudio.com/",
   },
+  vue: { name: "Vue", icon: vue, link: "https://vuejs.org/" },
 };
 
 export default technologies;

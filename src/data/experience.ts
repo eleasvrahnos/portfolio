@@ -48,6 +48,7 @@ const experienceDataEN = [
       technologies.ruby,
       technologies.tailwind,
       technologies.typescript,
+      technologies.vue,
     ],
   },
   // {
