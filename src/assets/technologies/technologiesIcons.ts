@@ -1,4 +1,4 @@
-import bootstrapcss from "./icons/bootstrapcss.png";
+import bootstrap from "./icons/bootstrap.png";
 import c from "./icons/c.png";
 import cplusplus from "./icons/cplusplus.png";
 import css3 from "./icons/css3.png";
@@ -34,7 +34,7 @@ import react from "./icons/react.png";
 import redux from "./icons/redux.png";
 import ruby from "./icons/ruby.png";
 import sqlite from "./icons/sqlite.png";
-import tailwindcss from "./icons/tailwindcss.png";
+import tailwind from "./icons/tailwind.png";
 import tensorflow from "./icons/tensorflow.png";
 import typescript from "./icons/typescript.png";
 import unity from "./icons/unity.png";
@@ -48,9 +48,9 @@ export type TechIcon = {
 };
 
 const technologies: { [key: string]: TechIcon } = {
-  bootstrapcss: {
-    name: "Bootstrap CSS",
-    icon: bootstrapcss,
+  bootstrap: {
+    name: "Bootstrap",
+    icon: bootstrap,
     link: "https://getbootstrap.com/",
   },
   c: {
@@ -77,7 +77,7 @@ const technologies: { [key: string]: TechIcon } = {
     link: "https://flask.palletsprojects.com/",
   },
   fusion360: {
-    name: "Fusion 360",
+    name: "Fusion360",
     icon: fusion360,
     link: "https://www.autodesk.com/products/fusion-360/overview",
   },
@@ -100,14 +100,14 @@ const technologies: { [key: string]: TechIcon } = {
   jenkins: { name: "Jenkins", icon: jenkins, link: "https://www.jenkins.io/" },
   jquery: { name: "jQuery", icon: jquery, link: "https://jquery.com/" },
   jupyter: {
-    name: "Jupyter Notebook",
+    name: "Jupyter",
     icon: jupyter,
     link: "https://jupyter.org/",
   },
   keras: { name: "Keras", icon: keras, link: "https://keras.io/" },
   linux: { name: "Linux", icon: linux, link: "https://www.linux.org/" },
   materialui: {
-    name: "Material-UI",
+    name: "MaterialUI",
     icon: materialui,
     link: "https://material-ui.com/",
   },
@@ -128,9 +128,9 @@ const technologies: { [key: string]: TechIcon } = {
   redux: { name: "Redux", icon: redux, link: "https://redux.js.org/" },
   ruby: { name: "Ruby", icon: ruby, link: "https://www.ruby-lang.org/" },
   sqlite: { name: "SQLite", icon: sqlite, link: "https://www.sqlite.org/" },
-  tailwindcss: {
-    name: "Tailwind CSS",
-    icon: tailwindcss,
+  tailwind: {
+    name: "Tailwind",
+    icon: tailwind,
     link: "https://tailwindcss.com/",
   },
   tensorflow: {
@@ -146,7 +146,7 @@ const technologies: { [key: string]: TechIcon } = {
   unity: { name: "Unity", icon: unity, link: "https://unity.com/" },
   vercel: { name: "Vercel", icon: vercel, link: "https://vercel.com/" },
   vsc: {
-    name: "Visual Studio Code",
+    name: "VS Code",
     icon: vsc,
     link: "https://code.visualstudio.com/",
   },

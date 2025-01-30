@@ -4,8 +4,7 @@ const techCategoriesDataEN = [
   "Frontend",
   "Backend",
   "Database",
-  "Dev Tools",
-  "Testing",
+  "Tooling",
   "Other",
 ];
 
@@ -13,35 +12,66 @@ const techCategoriesDataGR = [
   "Μπροστινό",
   "Πίσω",
   "Βάση Δεδομένων",
-  "Εργαλεία Ανάπτυξης",
-  "Δοκιμές",
+  "Εργαλεία",
   "Άλλα",
 ];
 
 const techDataBOTH = [
   [
     // Frontend
+    technologies.bootstrap,
+    technologies.css3,
+    technologies.html5,
+    technologies.jquery,
+    technologies.javascript,
+    technologies.materialui,
+    technologies.nextjs,
     technologies.react,
+    technologies.redux,
+    technologies.tailwind,
+    technologies.typescript,
   ],
   [
     // Backend
+    technologies.flask,
     technologies.go,
+    technologies.java,
+    technologies.nodejs,
+    technologies.python,
+    technologies.rails,
+    technologies.ruby,
   ],
   [
     // Database
+    technologies.mongodb,
     technologies.mysql,
+    technologies.postgresql,
+    technologies.sqlite,
   ],
   [
-    // Dev Tools
+    // Tooling
+    technologies.docker,
     technologies.figma,
-  ],
-  [
-    // Testing
+    technologies.git,
+    technologies.github,
+    technologies.heroku,
+    technologies.jenkins,
+    technologies.linux,
     technologies.postman,
+    technologies.vercel,
+    technologies.vsc,
   ],
   [
     // Other
+    technologies.c,
+    technologies.cplusplus,
+    technologies.fusion360,
     technologies.haskell,
+    technologies.jupyter,
+    technologies.keras,
+    technologies.opengl,
+    technologies.tensorflow,
+    technologies.unity,
   ],
 ];
 

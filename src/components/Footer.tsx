@@ -18,7 +18,7 @@ const Footer = () => {
         <h1 className="mx-3">
           {footerData.description1}{" "}
           <span
-            className="cursor-pointer duration-100 hover:text-frappelight2"
+            className="cursor-pointer text-frappelight2 duration-100 hover:text-frappelight1"
             onClick={() =>
               window.open(
                 "https://en.wikipedia.org/wiki/Frapp%C3%A9_coffee",
