@@ -9,7 +9,7 @@ const titleDataGR = {
   aboutme: "Σχετικά με Εμένα",
   technologies: "Τεχνολογίες",
   experience: "Εμπειρία",
-  projects: "Έργα",
+  projects: "Πρότζεκτ",
 };
 
 export { titleDataEN, titleDataGR };

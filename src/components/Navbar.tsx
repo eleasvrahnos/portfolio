@@ -4,6 +4,8 @@ import {
   FlaskConical,
   Wrench,
 } from "lucide-react";
+import { greece, us } from "../assets/header/headerIcons";
+import { useLocale } from "../LocaleContext";
 
 const Navbar = () => {
   const scrollToSection = (id: string) => {
@@ -19,6 +21,8 @@ const Navbar = () => {
       });
     }
   };
+
+  const { locale, setLocale } = useLocale();
 
   return (
     <nav className="fixed left-0 top-0 p-3 sm:p-4">
@@ -74,6 +78,17 @@ const Navbar = () => {
             <FlaskConical />
             <p className="invisible md:visible">{"Projects"}</p>
           </a>
+        </li>
+        <li
+          className="flex cursor-pointer flex-row gap-2 duration-200 hover:scale-110"
+          onClick={() => setLocale(locale === "en" ? "gr" : "en")}
+        >
+          <img
+            src={locale === "en" ? greece : us}
+            alt="Greece"
+            className="h-6 w-6"
+          />
+          <p className="invisible md:visible">{"Change Language"}</p>
         </li>
       </ul>
     </nav>

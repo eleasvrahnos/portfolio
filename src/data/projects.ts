@@ -305,8 +305,8 @@ const projectDataGR = [
   [
     {
       demo: mnistdigitclassification,
-      title: "MNIST Digit Classification",
-      period: "Jan. 2025",
+      title: "Ταξινόμηση Ψηφίων MNIST",
+      period: "Ιαν. 2025",
       links: [
         {
           label: "GitHub",
@@ -315,9 +315,9 @@ const projectDataGR = [
         },
       ],
       description1:
-        "This project explores digit classification using the MNIST dataset, a benchmark in machine learning, to classify handwritten digits from 0 to 9. Inspired by the large potential of machine learning, this 'Hello World' project serves as an introduction to training and deploying models. It combines curiosity about the workings of intelligent systems with a hands-on approach to learning, including a self-created application at the end.",
+        "Αυτό το πρότζεκτ διερευνά την ταξινόμηση ψηφίων χρησιμοποιώντας το σύνολο δεδομένων MNIST, ένα σημείο αναφοράς στη μηχανική μάθηση, για την ταξινόμηση χειρόγραφων ψηφίων από το 0 έως το 9. Εμπνευσμένο από τις μεγάλες δυνατότητες της μηχανικής μάθησης, αυτό το πρότζεκτ «Hello World» χρησιμεύει ως εισαγωγή στην εκπαίδευση και την ανάπτυξη μοντέλων. Συνδυάζει την περιέργεια για τη λειτουργία των ευφυών συστημάτων με μια πρακτική προσέγγιση στη μάθηση, συμπεριλαμβανομένης μιας εφαρμογής που δημιουργείται μόνος του στο τέλος.",
       description2:
-        "The project employs Convolutional Neural Networks (CNNs), a deep learning architecture designed to process image data efficiently by leveraging spatial hierarchies of features like edges and patterns. TensorFlow and Keras within Python are used for everything. Key steps in the model are data preprocessing for normalization, convolutional layers for feature extraction, and pooling layers for dimensionality reduction.",
+        "Το έργο χρησιμοποιεί Convolutional Neural Networks (CNN), μια αρχιτεκτονική βαθιάς μάθησης που έχει σχεδιαστεί για την αποτελεσματική επεξεργασία δεδομένων εικόνας αξιοποιώντας χωρικές ιεραρχίες χαρακτηριστικών όπως ακμές και μοτίβα. Το TensorFlow και το Keras εντός Python χρησιμοποιούνται για τα πάντα. Βασικά βήματα στο μοντέλο είναι η προεπεξεργασία δεδομένων για κανονικοποίηση, τα συνελικτικά στρώματα για την εξαγωγή χαρακτηριστικών και τα επίπεδα συγκέντρωσης για τη μείωση διαστάσεων.",
       stack: [
         technologies.jupyter,
         technologies.keras,

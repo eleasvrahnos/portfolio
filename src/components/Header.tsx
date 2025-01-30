@@ -1,26 +1,18 @@
 import { MapPin } from "lucide-react";
 import React from "react";
-import { greece, photo, us } from "../assets/header/headerIcons";
+import { photo } from "../assets/header/headerIcons";
 import { headerDataEN, headerDataGR } from "../data/header";
 import { useLocale } from "../LocaleContext";
 import ContactIcons from "./ContactIcons";
 
 const Header: React.FC = () => {
-  const { locale, setLocale } = useLocale();
+  const { locale } = useLocale();
   const headerData = locale === "en" ? headerDataEN : headerDataGR;
 
   return (
     <header className="flex items-center justify-between">
       <div className="space-y-2">
-        <div className="flex items-center">
-          <h1 className="font-raleway">{headerData.name}</h1>
-          <img
-            src={locale === "en" ? greece : us}
-            alt="Greece"
-            className="ml-2 h-6 w-6 cursor-pointer duration-100 active:scale-90"
-            onClick={() => setLocale(locale === "en" ? "gr" : "en")}
-          />
-        </div>
+        <h1 className="font-raleway">{headerData.name}</h1>
         <p>{headerData.title}</p>
         <div className="flex items-center text-xs">
           <MapPin size={18} className="mr-1" />
