@@ -43,30 +43,29 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         </div>
         <div className="gap-4">
           <div className="h-auto items-center justify-center xl:w-96">
-            {isVideo ? (
-              <div className="relative">
+            {demo ? (
+              isVideo ? (
                 <video
-                  className="hidden cursor-pointer rounded-lg xl:block"
+                  className="cursor-pointer rounded-lg"
                   autoPlay
                   muted
+                  playsInline
                   loop
                   src={demo}
                   onClick={() => window.open(demo, "_blank")}
                 ></video>
+              ) : (
                 <img
-                  className="cursor-pointer rounded-lg xl:hidden"
+                  className="cursor-pointer rounded-lg"
                   onClick={() => window.open(demo, "_blank")}
-                  src={demo + "#t=0.5"}
+                  src={demo}
                   alt={title}
                 />
-              </div>
+              )
             ) : (
-              <img
-                className="cursor-pointer rounded-lg"
-                onClick={() => window.open(demo, "_blank")}
-                src={demo}
-                alt={title}
-              />
+              <div className="flex h-full w-full animate-pulse items-center justify-center rounded-lg bg-gray-300">
+                <div className="h-48 w-48 bg-gray-400"></div>
+              </div>
             )}
           </div>
           <div className="mt-2 flex justify-center gap-2">
