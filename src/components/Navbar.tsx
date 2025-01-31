@@ -39,7 +39,7 @@ const Navbar = () => {
             }}
           >
             <CircleUserRound />
-            <p className="invisible md:visible">{titleData.aboutme}</p>
+            <p className="hidden md:inline">{titleData.aboutme}</p>
           </a>
         </li>
         <li className="duration-200 hover:scale-110">
@@ -52,7 +52,7 @@ const Navbar = () => {
             }}
           >
             <Wrench />
-            <p className="invisible md:visible">{titleData.technologies}</p>
+            <p className="hidden md:inline">{titleData.technologies}</p>
           </a>
         </li>
         <li className="duration-200 hover:scale-110">
@@ -65,7 +65,7 @@ const Navbar = () => {
             }}
           >
             <BriefcaseBusiness />
-            <p className="invisible md:visible">{titleData.experience}</p>
+            <p className="hidden md:inline">{titleData.experience}</p>
           </a>
         </li>
         <li className="duration-200 hover:scale-110">
@@ -78,7 +78,7 @@ const Navbar = () => {
             }}
           >
             <FlaskConical />
-            <p className="invisible md:visible">{titleData.projects}</p>
+            <p className="hidden md:inline">{titleData.projects}</p>
           </a>
         </li>
       </ul>
