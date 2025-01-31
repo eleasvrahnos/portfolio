@@ -46,7 +46,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             {isVideo ? (
               <video
                 className="cursor-pointer rounded-lg"
-                autoPlay
+                autoPlay={window.innerWidth >= 768}
                 muted
                 loop
                 src={demo}
