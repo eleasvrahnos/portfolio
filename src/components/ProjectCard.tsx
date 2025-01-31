@@ -49,8 +49,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                   className="cursor-pointer rounded-lg"
                   autoPlay
                   muted
-                  playsInline
                   loop
+                  playsInline
                   src={demo}
                   onClick={() => window.open(demo, "_blank")}
                 ></video>
