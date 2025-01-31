@@ -44,14 +44,22 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         <div className="gap-4">
           <div className="h-auto items-center justify-center xl:w-96">
             {isVideo ? (
-              <video
-                className="cursor-pointer rounded-lg"
-                autoPlay={window.innerWidth >= 768}
-                muted
-                loop
-                src={demo}
-                onClick={() => window.open(demo, "_blank")}
-              ></video>
+              <div className="relative">
+                <video
+                  className="hidden cursor-pointer rounded-lg xl:block"
+                  autoPlay
+                  muted
+                  loop
+                  src={demo}
+                  onClick={() => window.open(demo, "_blank")}
+                ></video>
+                <img
+                  className="cursor-pointer rounded-lg xl:hidden"
+                  onClick={() => window.open(demo, "_blank")}
+                  src={demo + "#t=0.5"}
+                  alt={title}
+                />
+              </div>
             ) : (
               <img
                 className="cursor-pointer rounded-lg"
