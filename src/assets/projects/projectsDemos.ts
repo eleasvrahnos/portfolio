@@ -4,8 +4,8 @@ import gtargmt from "./demos/gtargmt.png";
 import learninggaming from "./demos/learninggaming.png";
 import mnistdigitclassification from "./demos/mnistdigitclassification.mp4";
 import pksimulator from "./demos/pksimulator.mp4";
-import proglangdemo from "./demos/proglangdemo.png";
-import proglangreport from "./demos/proglangreport.pdf";
+import proglangreportdemo from "./demos/proglangreportdemo.png";
+import proglangreportpdf from "./demos/proglangreportpdf.pdf";
 import rubytutorial from "./demos/rubytutorial.png";
 import satellitetelemetrysystem from "./demos/satellitetelemetrysystem.mp4";
 import valdle from "./demos/valdle.mp4";
@@ -18,8 +18,8 @@ export {
   learninggaming,
   mnistdigitclassification,
   pksimulator,
-  proglangdemo,
-  proglangreport,
+  proglangreportdemo,
+  proglangreportpdf,
   rubytutorial,
   satellitetelemetrysystem,
   valdle,

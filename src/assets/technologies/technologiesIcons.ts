@@ -19,7 +19,9 @@ import jenkins from "./icons/jenkins.png";
 import jquery from "./icons/jquery.png";
 import jupyter from "./icons/jupyter.png";
 import keras from "./icons/keras.png";
+import latex from "./icons/latex.png";
 import linux from "./icons/linux.png";
+import markdown from "./icons/markdown.png";
 import materialui from "./icons/materialui.png";
 import mongodb from "./icons/mongodb.png";
 import mysql from "./icons/mysql.png";
@@ -27,6 +29,7 @@ import nextjs from "./icons/nextjs.png";
 import nodejs from "./icons/nodejs.png";
 import openai from "./icons/openai.png";
 import opengl from "./icons/opengl.png";
+import overleaf from "./icons/overleaf.png";
 import postgresql from "./icons/postgresql.png";
 import postman from "./icons/postman.png";
 import python from "./icons/python.png";
@@ -110,7 +113,13 @@ const technologies: { [key: string]: TechIcon } = {
     link: "https://jupyter.org/",
   },
   keras: { name: "Keras", icon: keras, link: "https://keras.io/" },
+  latex: { name: "LaTeX", icon: latex, link: "https://www.latex-project.org/" },
   linux: { name: "Linux", icon: linux, link: "https://www.linux.org/" },
+  markdown: {
+    name: "Markdown",
+    icon: markdown,
+    link: "https://www.markdownguide.org/getting-started/",
+  },
   materialui: {
     name: "MaterialUI",
     icon: materialui,
@@ -122,6 +131,11 @@ const technologies: { [key: string]: TechIcon } = {
   nodejs: { name: "Node.js", icon: nodejs, link: "https://nodejs.org/" },
   openai: { name: "OpenAI", icon: openai, link: "https://www.openai.com/" },
   opengl: { name: "OpenGL", icon: opengl, link: "https://www.opengl.org/" },
+  overleaf: {
+    name: "Overleaf",
+    icon: overleaf,
+    link: "https://www.overleaf.com/",
+  },
   postgresql: {
     name: "PostgreSQL",
     icon: postgresql,

@@ -5,6 +5,7 @@ import {
   Wrench,
 } from "lucide-react";
 import { greece, us } from "../assets/header/headerIcons";
+import { titleDataEN, titleDataGR } from "../data/titles";
 import { useLocale } from "../LocaleContext";
 
 const Navbar = () => {
@@ -23,9 +24,10 @@ const Navbar = () => {
   };
 
   const { locale, setLocale } = useLocale();
+  const titleData = locale === "en" ? titleDataEN : titleDataGR;
 
   return (
-    <nav className="fixed left-0 top-0 p-3 sm:p-4">
+    <nav className="fixed left-0 top-0 flex flex-col gap-3 p-3 sm:p-4">
       <ul className="flex flex-col gap-y-2 text-milk">
         <li className="duration-200 hover:scale-110">
           <a
@@ -37,7 +39,7 @@ const Navbar = () => {
             }}
           >
             <CircleUserRound />
-            <p className="invisible md:visible">{"About Me"}</p>
+            <p className="invisible md:visible">{titleData.aboutme}</p>
           </a>
         </li>
         <li className="duration-200 hover:scale-110">
@@ -50,7 +52,7 @@ const Navbar = () => {
             }}
           >
             <Wrench />
-            <p className="invisible md:visible">{"Technologies"}</p>
+            <p className="invisible md:visible">{titleData.technologies}</p>
           </a>
         </li>
         <li className="duration-200 hover:scale-110">
@@ -63,7 +65,7 @@ const Navbar = () => {
             }}
           >
             <BriefcaseBusiness />
-            <p className="invisible md:visible">{"Experience"}</p>
+            <p className="invisible md:visible">{titleData.experience}</p>
           </a>
         </li>
         <li className="duration-200 hover:scale-110">
@@ -76,21 +78,16 @@ const Navbar = () => {
             }}
           >
             <FlaskConical />
-            <p className="invisible md:visible">{"Projects"}</p>
+            <p className="invisible md:visible">{titleData.projects}</p>
           </a>
         </li>
-        <li
-          className="flex cursor-pointer flex-row gap-2 duration-200 hover:scale-110"
-          onClick={() => setLocale(locale === "en" ? "gr" : "en")}
-        >
-          <img
-            src={locale === "en" ? greece : us}
-            alt="Greece"
-            className="h-6 w-6"
-          />
-          <p className="invisible md:visible">{"Change Language"}</p>
-        </li>
       </ul>
+      <img
+        src={locale === "en" ? greece : us}
+        alt="Greece"
+        className="flex h-6 w-6 cursor-pointer flex-row gap-2 duration-200 hover:scale-110"
+        onClick={() => setLocale(locale === "en" ? "gr" : "en")}
+      />
     </nav>
   );
 };
