@@ -29,7 +29,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 onClick={() => window.open(technology.link, "_blank")}
                 alt={technology.name}
                 title={technology.name}
-                className="h-6 cursor-pointer"
+                className="h-6 cursor-pointer duration-200 hover:scale-125"
               />
             ))}
           </div>

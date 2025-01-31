@@ -34,6 +34,7 @@ const techDataBOTH = [
   ],
   [
     // Backend
+    technologies.express,
     technologies.flask,
     technologies.go,
     technologies.java,
@@ -47,6 +48,7 @@ const techDataBOTH = [
     technologies.mongodb,
     technologies.mysql,
     technologies.postgresql,
+    technologies.sql,
     technologies.sqlite,
   ],
   [
@@ -59,6 +61,7 @@ const techDataBOTH = [
     technologies.jenkins,
     technologies.linux,
     technologies.postman,
+    technologies.replit,
     technologies.vercel,
     technologies.vsc,
   ],
@@ -70,7 +73,9 @@ const techDataBOTH = [
     technologies.haskell,
     technologies.jupyter,
     technologies.keras,
+    technologies.openai,
     technologies.opengl,
+    technologies.stripe,
     technologies.tensorflow,
     technologies.unity,
   ],

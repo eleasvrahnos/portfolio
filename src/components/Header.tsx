@@ -16,7 +16,7 @@ const Header: React.FC = () => {
         <p>{headerData.title}</p>
         <div className="flex items-center text-xs">
           <MapPin size={18} className="mr-1" />
-          <p>Yorba Linda, California, US</p>
+          <p>{headerData.location}</p>
         </div>
         <ContactIcons />
       </div>

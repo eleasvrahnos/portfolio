@@ -25,6 +25,7 @@ import mongodb from "./icons/mongodb.png";
 import mysql from "./icons/mysql.png";
 import nextjs from "./icons/nextjs.png";
 import nodejs from "./icons/nodejs.png";
+import openai from "./icons/openai.png";
 import opengl from "./icons/opengl.png";
 import postgresql from "./icons/postgresql.png";
 import postman from "./icons/postman.png";
@@ -32,8 +33,11 @@ import python from "./icons/python.png";
 import rails from "./icons/rails.png";
 import react from "./icons/react.png";
 import redux from "./icons/redux.png";
+import replit from "./icons/replit.png";
 import ruby from "./icons/ruby.png";
+import sql from "./icons/sql.png";
 import sqlite from "./icons/sqlite.png";
+import stripe from "./icons/stripe.png";
 import tailwind from "./icons/tailwind.png";
 import tensorflow from "./icons/tensorflow.png";
 import typescript from "./icons/typescript.png";
@@ -116,6 +120,7 @@ const technologies: { [key: string]: TechIcon } = {
   mysql: { name: "MySQL", icon: mysql, link: "https://www.mysql.com/" },
   nextjs: { name: "Next.js", icon: nextjs, link: "https://nextjs.org/" },
   nodejs: { name: "Node.js", icon: nodejs, link: "https://nodejs.org/" },
+  openai: { name: "OpenAI", icon: openai, link: "https://www.openai.com/" },
   opengl: { name: "OpenGL", icon: opengl, link: "https://www.opengl.org/" },
   postgresql: {
     name: "PostgreSQL",
@@ -127,8 +132,11 @@ const technologies: { [key: string]: TechIcon } = {
   rails: { name: "Rails", icon: rails, link: "https://rubyonrails.org/" },
   react: { name: "React", icon: react, link: "https://reactjs.org/" },
   redux: { name: "Redux", icon: redux, link: "https://redux.js.org/" },
+  replit: { name: "Replit", icon: replit, link: "https://replit.com/" },
   ruby: { name: "Ruby", icon: ruby, link: "https://www.ruby-lang.org/" },
+  sql: { name: "SQL", icon: sql, link: "https://en.wikipedia.org/wiki/SQL" },
   sqlite: { name: "SQLite", icon: sqlite, link: "https://www.sqlite.org/" },
+  stripe: { name: "Stripe", icon: stripe, link: "https://stripe.com/" },
   tailwind: {
     name: "Tailwind",
     icon: tailwind,

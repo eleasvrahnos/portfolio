@@ -10,7 +10,7 @@ module.exports = {
         frappebase: "#524949",
         frappedark1: "#413A3A",
         frappedark2: "#2F2626",
-        frappedark3: "#161616",
+        frappedark3: "#261B1B",
         milk: "#FEFBF3",
       },
       fontFamily: {

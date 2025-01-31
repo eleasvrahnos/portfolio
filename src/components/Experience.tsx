@@ -40,7 +40,7 @@ const Experience: React.FC = () => {
                   onClick={() => window.open(technology.link, "_blank")}
                   alt={technology.name}
                   title={technology.name}
-                  className="h-7 cursor-pointer"
+                  className="h-7 cursor-pointer duration-200 hover:scale-125"
                 />
               ))}
             </div>

@@ -11,7 +11,7 @@ const AboutMe: React.FC = () => {
   return (
     <div id="aboutme">
       <h1 className="font-raleway">{titleData.aboutme}</h1>
-      <div>
+      <div className="flex flex-col gap-3 text-sm">
         <p>{aboutmeData.paragraph1}</p>
         <p>{aboutmeData.paragraph2}</p>
         <p>{aboutmeData.paragraph3}</p>
