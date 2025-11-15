@@ -12,7 +12,11 @@ const TechCard: React.FC<TechnologyCardProps> = ({
       className="flex h-24 w-24 flex-col items-center justify-center gap-2 rounded border border-frappelight1 bg-frappedark2 py-2 duration-200 hover:cursor-pointer hover:bg-frappedark1"
       onClick={() => window.open(link, "_blank")}
     >
-      <p className="text-center text-sm text-milk">{name}</p>
+      <p
+        className={`text-center text-milk ${name.length > 10 ? "text-xs" : "text-sm"}`}
+      >
+        {name}
+      </p>
       <img
         className="mb-1 h-12 duration-200 hover:scale-110 hover:cursor-pointer"
         src={icon}

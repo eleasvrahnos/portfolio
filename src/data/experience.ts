@@ -24,13 +24,21 @@ const experienceDataEN = [
   {
     icon: turionspace,
     company: "Turion Space",
-    title: "Ground Software Engineer",
-    period: "Oct. 2024 - Present",
+    ladder: [
+      {
+        title: "Ground Software Engineer",
+        period: "Apr. 2025 - Present",
+      },
+      {
+        title: "Associate Ground Software Engineer",
+        period: "Oct. 2024 - Apr. 2025",
+      },
+    ],
     links: {
       Website: "https://turionspace.com/",
     },
     description1:
-      "At Turion Space, I work across multiple projects and teams to align on requirements, quickly learn technical concepts, and lead feature development. I also play a key role in onboarding by writing and updating documentation for new hires and interview candidates. Some of the projects I've contributed to include developing critical testing software for Turion Space's DROID.002 satellite, assisting in the development of our mission control system, and feature development for STARFIRE OS, a web and API-based platform for customers to interact with and buy satellite imagery.",
+      "At Turion Space, I work across multiple projects and teams to align on requirements, quickly learn technical concepts, and lead feature development. I also play a key role in onboarding by writing and updating documentation for new hires and interview candidates. Some of the projects I've contributed to include developing critical testing software for Turion Space's DROID.002 satellite, assisting in the development of our mission control system, feature development for STARFIRE OS, and a self-developed service to build drag-and-drop interfaces for operators to use during contacts.",
     description2:
       "I work with a wide range of technologies, building efficient frontend and backend systems, along with automated scripts, using Go, Python, Ruby, and JavaScript. On the frontend, I design responsive, user-focused websites with React, Vue, and TypeScript. My work often intersects with space and satellite technology, giving me the opportunity to learn about different engineering disciplines such as AI/ML pipelines and flight software C code. We prioritize modern tools and best practices to deliver scalable, high-performance software that meets both our internal needs and those of our customers.",
     stack: [
@@ -58,8 +66,12 @@ const experienceDataEN = [
   {
     icon: headstarter,
     company: "Headstarter AI",
-    title: "Software Engineering Fellow",
-    period: "Jul. 2024 - Sep. 2024",
+    ladder: [
+      {
+        title: "Software Engineering Fellow",
+        period: "Jul. 2024 - Sep. 2024",
+      },
+    ],
     links: {
       Website: "https://headstarter.co/",
     },
@@ -91,8 +103,12 @@ const experienceDataEN = [
   {
     icon: codingminds,
     company: "Coding Minds, Inc.",
-    title: "Part-Time Instructor",
-    period: "Sep. 2022 - Jan. 2023",
+    ladder: [
+      {
+        title: "Part-Time Instructor",
+        period: "Sep. 2022 - Jan. 2023",
+      },
+    ],
     links: {
       Website: "https://codingmind.com/",
     },
@@ -114,8 +130,16 @@ const experienceDataGR = [
   {
     icon: turionspace,
     company: "Turion Space",
-    title: "Μηχανικός Λογισμικού Εδάφους",
-    period: "Οκτ. 2024 - Παρόν",
+    ladder: [
+      {
+        title: "Μηχανικός Λογισμικού Εδάφους",
+        period: "Απρ. 2025 - Παρόν",
+      },
+      {
+        title: "Συνάδελφος Μηχανικής Λογισμικού Εδάφους",
+        period: "Οκτ. 2024 - Απρ. 2025",
+      },
+    ],
     links: {
       Website: "https://turionspace.com/",
     },
@@ -147,8 +171,12 @@ const experienceDataGR = [
   {
     icon: headstarter,
     company: "Headstarter AI",
-    title: "Συνάδελφος Μηχανικής Λογισμικού",
-    period: "Ιουλ. 2024 - Σεπ. 2024",
+    ladder: [
+      {
+        title: "Συνάδελφος Μηχανικής Λογισμικού",
+        period: "Ιουλ. 2024 - Σεπ. 2024",
+      },
+    ],
     links: {
       Website: "https://headstarter.co/",
     },
@@ -180,8 +208,12 @@ const experienceDataGR = [
   {
     icon: codingminds,
     company: "Coding Minds, Inc.",
-    title: "Εκπαιδευτής Part-Time",
-    period: "Σεπ. 2022 - Ιαν. 2023",
+    ladder: [
+      {
+        title: "Εκπαιδευτής Part-Time",
+        period: "Σεπ. 2022 - Ιαν. 2023",
+      },
+    ],
     links: {
       Website: "https://codingmind.com/",
     },

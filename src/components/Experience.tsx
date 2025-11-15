@@ -24,9 +24,16 @@ const Experience: React.FC = () => {
                 className="h-8 cursor-pointer duration-200 hover:scale-110"
               />
             </div>
-            <div className="flex justify-between gap-4 text-milk">
-              <h2>{experience.title}</h2>
-              <h2 className="text-right">{experience.period}</h2>
+            <div className="flex flex-col text-milk">
+              {experience.ladder.map((step, index) => (
+                <div
+                  key={index}
+                  className={`flex w-full justify-between ${index !== 0 && "text-sm italic opacity-50"}`}
+                >
+                  <h2>{step.title}</h2>
+                  <h2 className="text-right">{step.period}</h2>
+                </div>
+              ))}
             </div>
             <div className="my-3 space-y-3 text-xs">
               <h2>{experience.description1}</h2>
